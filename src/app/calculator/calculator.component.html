@@ -1,0 +1,12 @@
+<div class="calculator">
+    <h2>Калькулятор</h2>
+    
+    <button (click)="decrement()">-</button>
+    <span>{{ value }}</span>
+    <button (click)="increment()">+</button>
+  
+    <div *ngIf="message" class="message">
+      {{ message }}
+    </div>
+</div>
+  
